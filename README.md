@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon CSS bug involving the unnecessary use of vendor prefixes.  The `bug.css` file contains the erroneous code, while `bugSolution.css` provides the corrected version.  Unnecessary vendor prefixes can lead to inconsistencies and bloat in your CSS.  Always ensure you are writing the most modern and concise code possible!
