@@ -1,0 +1,7 @@
+The corrected code simply removes the vendor prefix:
+
+```css
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+```
+
+This ensures compatibility across modern browsers without the unnecessary overhead of the vendor prefix.
