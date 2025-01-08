@@ -1,0 +1,7 @@
+The following CSS code snippet demonstrates an uncommon error: using a vendor prefix on a property that doesn't require it.
+
+```css
+-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+```
+
+This works in older WebKit browsers (like older versions of Safari), but it can lead to inconsistencies across browsers, and it's generally considered bad practice.  Modern browsers support `box-shadow` directly, and using vendor prefixes unnecessarily adds extra code and makes it harder to maintain.
